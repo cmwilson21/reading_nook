@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #d1d5df; */
+  background-image: url(https://images.unsplash.com/photo-1464865885825-be7cd16fad8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar_link{
+  margin:5px;
 }
